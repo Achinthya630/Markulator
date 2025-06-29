@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="Heading">Markulator</div>
+    </div>
+    <div class="main">
+        <div class="input">
+            <div>Enter your marks:</div>
+            <input type="text" id="marks">
+            <button id="submit">Enter</button>
+        </div>
+        <div id = "errorDisp" style="color: red;"></div>
+        <div class="output">
+            <table border> 
+                <head>
+                    <th>Score</th>
+                    <th>Minimum Required</th>
+                </head>
+                <tr>
+                    <td>10</td>
+                    <td id = "res10"></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td id = "res9"></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td id = "res8"></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td id = "res7"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <div class = "footer">What is Markulator??</div>
+        <div>
+            Markulator is a tool to calculate the minimum marks you would need to score out of 100 in your end sems to get the desired score in your final marksheet.
+        </div>
+    </div>
+    
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

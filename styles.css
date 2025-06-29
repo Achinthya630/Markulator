@@ -1,0 +1,127 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    margin-bottom: 30px;
+    width: 100%;
+    /* margin: 0px; */
+    text-align: center;
+    /* background-color:#1c1c1c; */
+}
+
+.Heading {
+    font-size: 3.5rem;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    font-weight: bold;
+    
+}
+
+/* Main Container */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Input Section */
+.input {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    text-align: center;
+}
+
+.input input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+    margin-top: 10px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00ffff;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.input button:hover {
+    background-color: #00cccc;
+}
+
+/* Output Table */
+.output table {
+    width: 400px;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.output th,
+.output td {
+    padding: 12px 16px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.output th {
+    background-color: #2a2a2a;
+    color: #00ffff;
+}
+
+.output td {
+    background-color: #1c1c1c;
+}
+
+/* Optional: Responsive design */
+@media (max-width: 500px) {
+    .output table {
+        width: 90%;
+    }
+
+    .input input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .input button {
+        width: 100%;
+    }
+}
+
+
+.footer{
+    margin-top: 100px;
+}
