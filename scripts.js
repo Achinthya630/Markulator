@@ -43,6 +43,7 @@ function run(marks) {
 
     targets.forEach(({ id, total }) => {
         clear(id);
+        clear("errorDisp");
         const result = calculate(markValue, total);
 
         // Show "Not obtainable" if the score is more than 100
